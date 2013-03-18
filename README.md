@@ -1,4 +1,4 @@
-# A Simple Perl Script for Generating Strong Password
+# A Simple Perl Script for Generating Strong Passwords
 
 ## What's this
 
@@ -6,11 +6,16 @@ This script generates strong password that are easy to distinguish. Characters s
 
 ## Installation
 
-- Clone this repo to your hard-drive
-- Create a symbolic link in your $PATH or a shell alias named `pass-gen` to `pass-gen.pl`
+``` sh
+$ curl -s https://raw.github.com/zhf/pass-gen/master/pass-gen.pl > pass && \
+  chmod 755 pass && \
+  mv pass /usr/local/bin
+```
 
 ## Usage
 
-- Type `pass-gen` in Terminal to generate five 8-char strong passwords
-- Type `pass-gen 15` to generate five 15-char very strong passwords
+In terminal:
+
+- Type `pass` in Terminal to generate 10-char passwords, from simple to strong ones
+- Type `pass-gen 15` to generate 15-char passwords
 
