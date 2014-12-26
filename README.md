@@ -7,7 +7,7 @@ This script generates strong password that are easy to distinguish. Characters s
 ## Installation
 
 ``` sh
-$ curl -s https://raw.github.com/zhf/pass-gen/master/pass-gen.pl > pass && \
+$ curl -s https://raw.githubusercontent.com/zhf/pass-gen/master/pass-gen.pl > pass && \
   chmod 755 pass && \
   mv pass /usr/local/bin
 ```
